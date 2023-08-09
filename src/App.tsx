@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import RedirectPage from './Pages/RedirectPage'
-import Home from './Pages/Home'
+// import Home from './Pages/Home'
 
 function App() {
   useEffect(() => {
