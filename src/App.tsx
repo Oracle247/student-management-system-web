@@ -17,7 +17,7 @@ function App() {
   }, []);
   return (
     <Router>
-      <main className="App">
+      <main className="oApp">
         <Routes>
           <Route path="/" element={<RedirectPage />} />
         </Routes>
