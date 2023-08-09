@@ -9,7 +9,7 @@ const RedirectPage = () => {
         const value = queryParams.get('link')
         if (!value) return
         console.log(value)
-        window.location.replace(value);
+        // window.location.replace(value);
     }, [])
 
 
