@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 
 const RedirectPage = () => {
     const location = useLocation();
-    const navigate = useNavigate()
 
     useEffect(() => {
         const queryParams = new URLSearchParams(location.search)
