@@ -21,8 +21,8 @@ function App() {
     <Router>
       <main className="oApp">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/redirect" element={<RedirectPage />} />
+          <Route path="/" element={<RedirectPage />} />
+          {/* <Route path="/redirect" element={<RedirectPage />} /> */}
         </Routes>
       </main>
     </Router>
