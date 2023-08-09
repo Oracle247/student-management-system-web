@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import RedirectPage from './Pages/RedirectPage'
-// import Home from './Pages/Home'
+import Home from './Pages/Home'
 
 function App() {
   useEffect(() => {
@@ -21,8 +21,8 @@ function App() {
     <Router>
       <main className="oApp">
         <Routes>
-          <Route path="/" element={<RedirectPage />} />
-          {/* <Route path="/redirect" element={<RedirectPage />} /> */}
+          <Route path="/" element={<Home />} />
+          <Route path="/redirect" element={<RedirectPage />} />
         </Routes>
       </main>
     </Router>
